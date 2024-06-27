@@ -1,0 +1,101 @@
+!DOCTYPE html
+html lang=en
+head
+    meta charset=UTF-8
+    meta name=viewport content=width=device-width, initial-scale=1.0
+    titleBenim Portföyümtitle
+    style
+        body {
+            font-family Arial, sans-serif;
+            background-color #f0f0f0;
+            color #333;
+            margin 0;
+            padding 0;
+        }
+
+        header {
+            background-color #333;
+            color white;
+            padding 1em 0;
+            text-align center;
+        }
+
+        nav ul {
+            list-style none;
+            padding 0;
+        }
+
+        nav ul li {
+            display inline;
+            margin 0 1em;
+        }
+
+        nav ul li a {
+            color white;
+            text-decoration none;
+        }
+
+        main {
+            padding 1em;
+        }
+
+        section {
+            margin-bottom 2em;
+        }
+
+        article {
+            background-color white;
+            padding 1em;
+            margin 1em 0;
+            border-radius 5px;
+            box-shadow 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+
+        footer {
+            background-color #333;
+            color white;
+            text-align center;
+            padding 1em 0;
+        }
+
+        footer a {
+            color white;
+            text-decoration underline;
+        }
+    style
+head
+body
+    header
+        h1Hoş Geldinizh1
+        nav
+            ul
+                lia href=#hakkimdaHakkımdaali
+                lia href=#projelerProjelerali
+                lia href=#iletisimİletişimali
+            ul
+        nav
+    header
+    main
+        section id=hakkimda
+            h2Hakkımdah2
+            pMerhaba! Ben [Adınız], web geliştiricisiyim. Deneyimlerim ve projelerim hakkında daha fazla bilgi edinmek için aşağı kaydırın.p
+        section
+        section id=projeler
+            h2Projelerh2
+            article
+                h3Proje 1h3
+                pBu proje hakkında kısa bir açıklama.p
+            article
+            article
+                h3Proje 2h3
+                pBu proje hakkında kısa bir açıklama.p
+            article
+        section
+    main
+    footer id=iletisim
+        h2İletişimh2
+        pBana ulaşmak için a href=mailtoornek@mail.come-postaa gönderebilirsiniz.p
+        pTelif Hakkı © 2024p
+    footer
+body
+html
